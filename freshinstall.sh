@@ -15,4 +15,7 @@ echo "Include = /etc/pacman.d/mirrorlist" >> ~/pacman.conf
 
 #installing packages
 pacman -Syy
-pacman -S python xf86-video-intel xf86-input-synaptics  mesa-libgl lib32-mesa-libgl libva-intel-driver xorg-{server{,-utils},apps,xinit} i3 dmenu alsa-{utils,plugins} dialogs lightdm firefox zsh yaourt ck-ivybridge lxtask lxterminal tar zip unzip unrar grml-zsh-config
+pacman -S python xf86-video-intel xf86-input-synaptics  mesa-libgl lib32-mesa-libgl libva-intel-driver xorg-{server{,-utils},apps,xinit} i3 dmenu alsa-{utils,plugins} dialogs lightdm firefox zsh yaourt ck-ivybridge lxtask lxterminal tar zip unzip unrar grml-zsh-config caja 
+
+#yaourt packages
+yaourt i3blocks j4-dmenu-desktop popcorntime-ce-bin systemd-readahead gtk-theme-arc moka-icon-theme-git faba-mono-icons-git faba-icon-theme-git
